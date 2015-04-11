@@ -1,0 +1,23 @@
+{
+  "name": "node-noolite",
+  "description": "noolite USB stick support",
+  "version": "0.0.1",
+  "author": {
+    "name": "Vadim Kosin",
+    "email": "vkosin@outlook.com",
+    "url": "https://github.com/vkosin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vkosin/node-noolite.git"
+  },
+  "main": "./noolite.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "license": "MIT/X11",
+  "dependencies": {
+    "node-hid": "^0.3.2"
+  },
+  "devDependencies": {}
+}
