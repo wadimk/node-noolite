@@ -1,6 +1,6 @@
 var HID = require('node-hid');
 
-function nooLite(name) {
+function nooLite() {
 	this.devices = new HID.devices(0x16c0, 0x05df);
 	this._init_command = [0x00, 0x50, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00];	
 	this._channels = 8;
@@ -66,3 +66,5 @@ function nooLite(name) {
         this._send();
 	}
 };
+
+exports.nooLite = nooLite;

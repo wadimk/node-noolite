@@ -5,17 +5,16 @@
   "author": {
     "name": "Vadim Kosin",
     "email": "vkosin@outlook.com",
-    "url": "https://github.com/vkosin"
+    "url": "https://github.com/wadimk"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vkosin/node-noolite.git"
+    "url": "git://github.com/wadimk/node-noolite.git"
   },
   "main": "./noolite.js",
   "engines": {
     "node": ">=0.8.0"
   },
-  "license": "MIT/X11",
   "dependencies": {
     "node-hid": "^0.3.2"
   },
